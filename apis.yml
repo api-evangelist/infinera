@@ -1,8 +1,28 @@
 aid: infinera
 name: Infinera
-description: 'Infinera is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: hardware. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Infinera is a vertically integrated optical networking and DWDM transport
+  equipment vendor, known for its in-house photonic integrated circuits, coherent
+  optical engines (ICE), XR optics, and the GX, Groove, and FlexILS system lines
+  used by carriers, cloud/internet-content providers, and enterprises to build
+  high-capacity transport networks. Infinera was acquired by Nokia (completed in
+  2025) and now operates as part of Nokia Optical Networks. Network programmability
+  is delivered through open transport-networking standards (ONF TAPI, OpenConfig,
+  gNMI/gNXI, NETCONF/YANG) and infrastructure automation (a published Terraform
+  provider and an Ansible collection) rather than a single proprietary REST API.
 url: https://raw.githubusercontent.com/api-evangelist/infinera/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/39196400?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Hardware
+- Optical Networking
+- Telecommunications
+- Networking
+- DWDM
+- Transport Network
+- Network Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +49,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.infinera.com
+  url: https://www.infinera.com
+- type: DeveloperPortal
+  url: https://github.com/infinera
+- type: Documentation
+  url: https://github.com/infinera
+- type: GitHubOrganization
+  url: https://github.com/infinera
+- type: PrivacyPolicy
+  url: https://www.infinera.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.infinera.com/legal/
+- type: Packages
+  url: packages/infinera-packages.yml
+- type: SDKs
+  url: packages/infinera-packages.yml
+- type: Conformance
+  url: conformance/infinera-conformance.yml
+- type: DomainSecurity
+  url: security/infinera-domain-security.yml
+- type: LLMsTxt
+  url: llms/infinera-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,50 @@
+generated: '2026-07-19'
+method: searched
+source: Terraform Registry + github.com/infinera public repositories
+packages:
+- language: hcl
+  registry: terraform
+  name: infinera/ipm
+  url: https://registry.terraform.io/providers/infinera/ipm/latest
+  install: |
+    terraform {
+      required_providers {
+        ipm = {
+          source = "infinera/ipm"
+        }
+      }
+    }
+  version: 0.4.6
+  downloads: 8164
+  source_code: https://github.com/infinera/terraform-provider-ipm
+  description: Official Infinera Terraform provider for IPM (IP-over-DWDM / network automation).
+  official: true
+- language: hcl
+  registry: github
+  name: terraform-provider-xr
+  url: https://github.com/infinera/terraform-provider-xr
+  install: go install github.com/infinera/terraform-provider-xr
+  source_code: https://github.com/infinera/terraform-provider-xr
+  description: Infinera Terraform provider for XR optics (source published on GitHub; not published to the Terraform Registry).
+  official: true
+- language: hcl
+  registry: github
+  name: terraform-infinera-ipm-modules
+  url: https://github.com/infinera/terraform-infinera-ipm-modules
+  source_code: https://github.com/infinera/terraform-infinera-ipm-modules
+  description: Reusable Terraform modules for Infinera IPM.
+  official: true
+- language: hcl
+  registry: github
+  name: terraform-infinera-xr-modules
+  url: https://github.com/infinera/terraform-infinera-xr-modules
+  source_code: https://github.com/infinera/terraform-infinera-xr-modules
+  description: Reusable Terraform modules for Infinera XR optics.
+  official: true
+- language: python
+  registry: github
+  name: ansible_collection.infinera.iqnos
+  url: https://github.com/infinera/ansible_collection.infinera.iqnos
+  source_code: https://github.com/infinera/ansible_collection.infinera.iqnos
+  description: Ansible Automation collection for Infinera iqnos devices (published on GitHub).
+  official: true

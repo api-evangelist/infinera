@@ -1,0 +1,46 @@
+generated: '2026-07-19'
+method: searched
+source: github.com/infinera public repositories
+notes: >-
+  Infinera exposes network programmability through open transport-networking
+  standards and infrastructure automation rather than a single proprietary REST
+  API. Conformance below is evidenced by first-party public repositories.
+standards:
+- id: onf-tapi
+  name: ONF Transport API (TAPI)
+  conforms: true
+  evidence: github.com/infinera/TAPI (OAS, YANG, UML, RI reference implementation)
+- id: openconfig
+  name: OpenConfig YANG models
+  conforms: true
+  evidence: github.com/infinera/public (OpenConfig models, documentation)
+- id: gnmi
+  name: gRPC Network Management Interface (gNMI)
+  conforms: true
+  evidence: github.com/infinera/gnmi
+- id: gnxi
+  name: gNXI (gRPC Network Management/Operations Interface tools)
+  conforms: true
+  evidence: github.com/infinera/gnxi
+- id: netconf-yang
+  name: NETCONF / YANG
+  conforms: true
+  evidence: TAPI and OpenDevice YANG models published; iqnos devices managed via YANG
+- id: opentelemetry
+  name: OpenTelemetry (streaming telemetry)
+  conforms: true
+  evidence: github.com/infinera/opentelemetry-collector-contrib; optical-threshold-streaming
+- id: terraform-provider-protocol
+  name: Terraform Provider Protocol (v5.0)
+  conforms: true
+  evidence: registry.terraform.io/providers/infinera/ipm (protocol_versions 5.0)
+- id: ansible
+  name: Ansible Automation
+  conforms: true
+  evidence: github.com/infinera/ansible_collection.infinera.iqnos
+- id: rfc9457-problem-details
+  name: RFC 9457 Problem Details
+  conforms: false
+- id: oauth2
+  name: OAuth 2.0
+  conforms: false

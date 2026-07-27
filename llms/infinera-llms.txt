@@ -1,0 +1,37 @@
+# Infinera
+
+> Infinera is a vertically integrated optical networking and DWDM transport
+> equipment vendor (coherent optical engines / ICE, XR optics, GX/Groove/FlexILS
+> systems, photonic integrated circuits) serving carriers, cloud/ICP, and
+> enterprise transport networks. Infinera was acquired by Nokia (completed 2025)
+> and now operates as part of Nokia Optical Networks. Programmability is delivered
+> through open transport-networking standards (ONF TAPI, OpenConfig, gNMI/gNXI,
+> NETCONF/YANG) and infrastructure automation (Terraform, Ansible) rather than a
+> single proprietary REST API.
+
+## Company
+- Website: https://www.infinera.com (redirects to Nokia Optical Networks)
+- Nokia Optical Networks: https://www.nokia.com/optical-networks/
+- GitHub organization: https://github.com/infinera
+- Privacy Policy: https://www.infinera.com/privacy-policy/
+- Legal / Terms: https://www.infinera.com/legal/
+
+## Programmability & Standards
+- ONF Transport API (TAPI): https://github.com/infinera/TAPI
+- OpenConfig models: https://github.com/infinera/public
+- gNMI (gRPC Network Management Interface): https://github.com/infinera/gnmi
+- gNXI tools: https://github.com/infinera/gnxi
+- OpenDevice (optical component device model): https://github.com/infinera/OpenDevice
+- Optical threshold streaming telemetry: https://github.com/infinera/optical-threshold-streaming
+- Ansible collection (iqnos): https://github.com/infinera/ansible_collection.infinera.iqnos
+
+## Packages
+- Terraform provider (IPM): https://registry.terraform.io/providers/infinera/ipm/latest
+- Terraform provider (XR): https://github.com/infinera/terraform-provider-xr
+- Terraform IPM modules: https://github.com/infinera/terraform-infinera-ipm-modules
+- Terraform XR modules: https://github.com/infinera/terraform-infinera-xr-modules
+
+## Artifacts (API Evangelist)
+- Packages: packages/infinera-packages.yml
+- Conformance: conformance/infinera-conformance.yml
+- Domain security: security/infinera-domain-security.yml
